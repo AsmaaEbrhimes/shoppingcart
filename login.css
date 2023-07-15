@@ -1,0 +1,47 @@
+
+     body{
+        font-family: 'Oswald', sans-serif; 
+       }
+       
+.content_login{
+    background: linear-gradient(to right,white,rgb(233, 153, 5));
+    height: 100vh;
+}
+#valdtion-login{
+        position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#valdtion-login input{
+   
+    font-size: 15px;
+    background: linear-gradient(to right, yellow,rgb(245, 163, 12));
+    border-radius: 10px;
+    border: 1px solid white;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+    outline: 0;
+}
+#valdtion-login input[type=submit]{
+cursor: pointer;
+font-size: 20px;
+text-align: center;
+width: 400px;
+}
+.go_to_regigsetr{
+    background-color: aliceblue;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.go_to_regigsetr a{
+    text-decoration: none;
+    color:red ;
+}

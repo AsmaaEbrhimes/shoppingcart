@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header id="header-content">
+        <div class="CONTAINER">
+            <div class="nav_content">
+                <a href="index.html">SHOPPING <b>CART</b></a>
+                <ul id="Athution">
+                    <li>REGISTER</li>
+                    <li>LOGIN</li>
+                </ul>
+                <ul class="logout-btn">
+                    <li id="logout">logout</li>
+                    <li id="logout_username"></li>
+                    <a href="favourite.html">
+                        <li id="btn_favourite">Favourite</li>
+                    </a>
+                </ul>
+                <ul class="shopping_cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div id="shopping_cart-padge"></div>
+
+
+                    <div class="list_shopping">
+                        <div class="list_shopping_total"></div>
+                        <div class="list_shopping_btn">
+                            <a href="shoppingproduct.html"><button>view ALL PRODUCTS</button></a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="CONTAINER">
+        <form id="product_form">
+            <input type="file" id='upload_image'>
+            <input type="text" placeholder="Name..." id="product_name">
+            <input type="text" placeholder="Descrption..." id="product_desc">
+            <select id="product_size">
+                <option value="select size" > select size </option>
+                <option value="small">small</option>
+                <option value="large">large</option>
+                <option value="medium">medium</option>
+            </select>
+            <button id="crat_product_btn">Update</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="global.js"></script>
+    <script src="./Edit.js"></script>
+</body>
